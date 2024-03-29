@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <h2> JavaScript Objects</h2>
+
+    <p id="demo"></p>
+    <br>
+    <p id="demo2"></p>
+    <br>
+    <p id="demo3"></p>
+    <br>
+    <p id="demo4"></p>
+    <br>
+    <p id="demo5"></p>
+    <script>
+
+        const person = {
+            firstname: "Athiya",
+            lastname: "Prenciona",
+            age: 18,
+            eyeColor: "black"
+        };
+
+        const cat = {
+            catName: "dark",
+            catColor: "black & white",
+            age: 9,
+            eyeColor: "black"
+        };
+
+        const cats = {
+            catsName: "Panda",
+            catsColor: "white, black, ",
+            age: 4,
+            eyeColor: "black"
+        };
+        const persons = {
+            personName: "teya",
+            LastName: "prenciona",
+            age: 18,
+            eyeColor: "black"
+        };
+        const cp = {
+            cpBrand: "vivo",
+            cpColor: "black",
+            Age: 4,
+            cpsize: "17"
+        };
+
+
+
+        // Display same data from the object
+        document.getElementById("demo").innerHTML =
+            person.firstname + " " + person.lastname + " is " + person.age + "years old." +
+            " His eye color is " + person.eyeColor;
+
+        // Display same data from the object
+        document.getElementById("demo2").innerHTML =
+            cat.catName + " is " + cat.catColor + " he is " + cat.age + "years old." +
+            " His eye color is " + cat.eyeColor;
+
+     
+        document.getElementById("demo3").innerHTML =
+            cats.catsName + " is " + cats.catsColor + " and he is " + cats.age + "years old." +
+            " His eye color is " + cats.eyeColor;
+
+            document.getElementById("demo4").innerHTML =
+            persons.personName+ " is " + persons.LastName + " and she is " + persons.age + "years old." +
+            " His eye color is " + persons.eyeColor;
+
+            document.getElementById("demo5").innerHTML =
+            cp.cpBrand + " is " + cp.cpColor + " and he is " + Age + "months" + "old." +
+            " His eye color is " + cp.cpsize;
+
+
+
+    </script>
+</body>
+
+</html>
